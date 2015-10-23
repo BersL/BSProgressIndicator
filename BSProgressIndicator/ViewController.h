@@ -1,9 +1,9 @@
 //
 //  ViewController.h
-//  BSProgressIndicator
+//  ProgressIndicator
 //
-//  Created by Bers on 15/9/25.
-//  Copyright © 2015年 Bers. All rights reserved.
+//  Created by Bers on 15/9/12.
+//  Copyright (c) 2015年 Bers. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

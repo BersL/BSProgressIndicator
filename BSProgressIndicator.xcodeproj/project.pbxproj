@@ -13,6 +13,11 @@
 		CC1438CA1BB57FE900FCA07C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC1438C81BB57FE900FCA07C /* Main.storyboard */; };
 		CC1438CC1BB57FE900FCA07C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC1438CB1BB57FE900FCA07C /* Assets.xcassets */; };
 		CC1438CF1BB57FE900FCA07C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC1438CD1BB57FE900FCA07C /* LaunchScreen.storyboard */; };
+		CC1438E01BB5809F00FCA07C /* BSIndicatorTextLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = CC1438D71BB5809F00FCA07C /* BSIndicatorTextLabel.m */; settings = {ASSET_TAGS = (); }; };
+		CC1438E11BB5809F00FCA07C /* BSJumpingArrow.m in Sources */ = {isa = PBXBuildFile; fileRef = CC1438D91BB5809F00FCA07C /* BSJumpingArrow.m */; settings = {ASSET_TAGS = (); }; };
+		CC1438E21BB5809F00FCA07C /* BSOuterBorder.m in Sources */ = {isa = PBXBuildFile; fileRef = CC1438DB1BB5809F00FCA07C /* BSOuterBorder.m */; settings = {ASSET_TAGS = (); }; };
+		CC1438E31BB5809F00FCA07C /* BSProgressIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = CC1438DD1BB5809F00FCA07C /* BSProgressIndicator.m */; settings = {ASSET_TAGS = (); }; };
+		CC1438E41BB5809F00FCA07C /* UIBezierPath+BSCustomPath.m in Sources */ = {isa = PBXBuildFile; fileRef = CC1438DF1BB5809F00FCA07C /* UIBezierPath+BSCustomPath.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +31,16 @@
 		CC1438CB1BB57FE900FCA07C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CC1438CE1BB57FE900FCA07C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CC1438D01BB57FE900FCA07C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC1438D61BB5809F00FCA07C /* BSIndicatorTextLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSIndicatorTextLabel.h; sourceTree = "<group>"; };
+		CC1438D71BB5809F00FCA07C /* BSIndicatorTextLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSIndicatorTextLabel.m; sourceTree = "<group>"; };
+		CC1438D81BB5809F00FCA07C /* BSJumpingArrow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSJumpingArrow.h; sourceTree = "<group>"; };
+		CC1438D91BB5809F00FCA07C /* BSJumpingArrow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSJumpingArrow.m; sourceTree = "<group>"; };
+		CC1438DA1BB5809F00FCA07C /* BSOuterBorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSOuterBorder.h; sourceTree = "<group>"; };
+		CC1438DB1BB5809F00FCA07C /* BSOuterBorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSOuterBorder.m; sourceTree = "<group>"; };
+		CC1438DC1BB5809F00FCA07C /* BSProgressIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSProgressIndicator.h; sourceTree = "<group>"; };
+		CC1438DD1BB5809F00FCA07C /* BSProgressIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSProgressIndicator.m; sourceTree = "<group>"; };
+		CC1438DE1BB5809F00FCA07C /* UIBezierPath+BSCustomPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBezierPath+BSCustomPath.h"; sourceTree = "<group>"; };
+		CC1438DF1BB5809F00FCA07C /* UIBezierPath+BSCustomPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBezierPath+BSCustomPath.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +77,16 @@
 				CC1438C31BB57FE900FCA07C /* AppDelegate.m */,
 				CC1438C51BB57FE900FCA07C /* ViewController.h */,
 				CC1438C61BB57FE900FCA07C /* ViewController.m */,
+				CC1438D61BB5809F00FCA07C /* BSIndicatorTextLabel.h */,
+				CC1438D71BB5809F00FCA07C /* BSIndicatorTextLabel.m */,
+				CC1438D81BB5809F00FCA07C /* BSJumpingArrow.h */,
+				CC1438D91BB5809F00FCA07C /* BSJumpingArrow.m */,
+				CC1438DA1BB5809F00FCA07C /* BSOuterBorder.h */,
+				CC1438DB1BB5809F00FCA07C /* BSOuterBorder.m */,
+				CC1438DC1BB5809F00FCA07C /* BSProgressIndicator.h */,
+				CC1438DD1BB5809F00FCA07C /* BSProgressIndicator.m */,
+				CC1438DE1BB5809F00FCA07C /* UIBezierPath+BSCustomPath.h */,
+				CC1438DF1BB5809F00FCA07C /* UIBezierPath+BSCustomPath.m */,
 				CC1438C81BB57FE900FCA07C /* Main.storyboard */,
 				CC1438CB1BB57FE900FCA07C /* Assets.xcassets */,
 				CC1438CD1BB57FE900FCA07C /* LaunchScreen.storyboard */,
@@ -149,9 +174,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC1438E11BB5809F00FCA07C /* BSJumpingArrow.m in Sources */,
+				CC1438E01BB5809F00FCA07C /* BSIndicatorTextLabel.m in Sources */,
+				CC1438E41BB5809F00FCA07C /* UIBezierPath+BSCustomPath.m in Sources */,
+				CC1438E21BB5809F00FCA07C /* BSOuterBorder.m in Sources */,
 				CC1438C71BB57FE900FCA07C /* ViewController.m in Sources */,
 				CC1438C41BB57FE900FCA07C /* AppDelegate.m in Sources */,
 				CC1438C11BB57FE900FCA07C /* main.m in Sources */,
+				CC1438E31BB5809F00FCA07C /* BSProgressIndicator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,6 +328,7 @@
 				CC1438D51BB57FE900FCA07C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
